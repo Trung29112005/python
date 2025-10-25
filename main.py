@@ -1,5 +1,7 @@
 # Yêu cầu cài đặt thêm các thư viện:
 # pip install httpx pytz apscheduler
+from keep_alive import keep_alive
+keep_alive()
 from zalo_bot import Update
 # Import các lớp cần thiết
 from zalo_bot.ext import ApplicationBuilder, CommandHandler, ContextTypes 
